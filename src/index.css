@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
@@ -62,4 +63,24 @@ main {
     background-color: #0282f9;
     padding: 15px 30px;
 transform: translateY(-50%);
+}
+
+.card-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.comic-card {
+    width: calc((100% - 100px) / 6);
+}
+
+.comic-card img {
+   width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
