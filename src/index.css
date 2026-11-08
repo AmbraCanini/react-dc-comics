@@ -49,7 +49,7 @@
 main {
     background-color: #1c1c1c;
     color: white;
-       padding: 0 0 50px;
+       padding: 0;
 }
 
 .container {
@@ -96,4 +96,81 @@ transform: translateY(-50%);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+
+/* Services */
+.services {
+    background-color: #0282f9;
+    padding: 40px 10%;
+    margin-top: 20px;
+}
+
+.services ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.services li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.services img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.services a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+}
+
+/* Footer */
+
+footer {
+    background-color: #303030;
+    background-image: url('/images/img/footer-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links h3 {
+    color: white;
+    margin-bottom: 15px;
+    font-family: 'Bangers', cursive;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #959595;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-logo img {
+    width: 400px;
 }
