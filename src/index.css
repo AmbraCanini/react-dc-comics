@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+
+.header-logo {
+    width: 80px;
+}
+
+.header-top ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+     font-family: 'Bangers', cursive;
+}
+
+.header-top a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4a4848;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+       object-position: top;
+}
