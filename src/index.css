@@ -84,3 +84,16 @@ transform: translateY(-50%);
     height: 200px;
     object-fit: cover;
 }
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.load-more {
+    background-color: #0282f9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

@@ -18,6 +18,9 @@ function AppMain() {
                 )}
 
             </section>
+            <div className="button">
+                <button className="load-more">LOAD MORE</button>
+            </div>
         </main>
     );
 }
