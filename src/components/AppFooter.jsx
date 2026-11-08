@@ -1,3 +1,9 @@
+import facebook from "../../images/img/footer-facebook.png";
+import twitter from "../../images/img/footer-twitter.png";
+import youtube from "../../images/img/footer-youtube.png";
+import pinterest from "../../images/img/footer-pinterest.png";
+import periscope from "../../images/img/footer-periscope.png";
+
 function AppFooter() {
 
     return (
@@ -57,6 +63,19 @@ function AppFooter() {
                 </div>
 
             </div>
+
+            <div className="footer-bottom">
+    <button>SIGN-UP NOW!</button>
+
+    <div className="footer-social">
+        <h3>FOLLOW US</h3>
+        <img src={facebook} alt="Facebook" />
+        <img src={twitter} alt="Twitter" />
+        <img src={youtube} alt="YouTube" />
+        <img src={pinterest} alt="Pinterest" />
+        <img src={periscope} alt="Periscope" />
+    </div>
+</div>
         </footer>
     );
 }

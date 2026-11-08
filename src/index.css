@@ -174,3 +174,35 @@ footer {
 .footer-logo img {
     width: 400px;
 }
+
+.footer-bottom {
+    background-color: #303030;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom button {
+    background: none;
+    border: 2px solid #0282f9;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-family: 'Bangers', cursive;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-social h3 {
+    color: white;
+    font-family: 'Bangers', cursive;
+}
+
+.footer-social img {
+    width: 35px;
+}
