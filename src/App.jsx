@@ -1,15 +1,16 @@
-import AppComponent from './components/AppComponent';
-
+import AppHeader from "./components/AppHeader"
+import AppMain from "./components/AppMain"
+import AppFooter from "./components/AppFooter"
 
 
 function App() {
-    return (
-        <div>
-            <h1>DC Comics</h1>
-            <AppComponent />
-        </div>
-    );
+	return (
+		<>
+			<AppHeader />
+			<AppMain />
+			<AppFooter />
+		</>
+	)
 }
 
-export default App;
-
+export default App
