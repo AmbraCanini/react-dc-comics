@@ -4,6 +4,7 @@ import merchandise from "../../images/img/buy-comics-merchandise.png";
 import subscriptions from "../../images/img/buy-comics-subscriptions.png";
 import shopLocator from "../../images/img/buy-comics-shop-locator.png";
 import powerVisa from "../../images/img/buy-dc-power-visa.svg";
+import ComicCard from "./ComicCard";
 
 function AppMain() {
 
@@ -32,13 +33,20 @@ const links = linkService.map(elemento => {
             </div>
 
             <section id="comics" className="card-container">
-
-                {comics.map(comic =>
+{/*
+               // {comics.map(comic =>
                     <div key={comic.id} className="comic-card">
                         <img src={comic.thumb} alt={comic.title} />
                         <h3>{comic.title}</h3>
                     </div>
-                )}
+                )}  */}
+                {comics.map(comic =>
+    <ComicCard
+        key={comic.id}
+        title={comic.title}
+          thumb={comic.thumb}
+    />
+)}
 
             </section>
             <div className="button">

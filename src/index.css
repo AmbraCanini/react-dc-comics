@@ -206,3 +206,14 @@ footer {
 .footer-social img {
     width: 35px;
 }
+
+.comics-card {
+	flex-basis: 25%;
+	padding: 20px;
+	background-color: white;
+	border: 2px solid lightblue;
+
+	img {
+		display: block;
+	}
+}
